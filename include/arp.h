@@ -74,6 +74,4 @@ void arp_request(struct arp_entry *ae);
 void arp_reply(struct netdev *dev, struct pkbuf *pkb);
 void arp_recv(struct netdev *dev, struct pkbuf *pkb);
 
-
-
 #endif

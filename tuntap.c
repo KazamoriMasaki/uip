@@ -14,9 +14,6 @@
 #include <unistd.h> /* for close() */
 #include <sys/ioctl.h>  /* for ioctl() */
 
-static int tun_fd; /* tuntap file descriptor */
-static char *dev;
-
 int tun_read(char *buf, int len)
 {
     return read(tun_fd, buf, len);
